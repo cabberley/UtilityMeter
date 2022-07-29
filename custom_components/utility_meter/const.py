@@ -1,9 +1,10 @@
 """Constants for the utility meter component."""
-DOMAIN = "utility_meter"
+DOMAIN = "utility_meter_custom"
 
 TARIFF_ICON = "mdi:clock-outline"
 
 QUARTER_HOURLY = "quarter-hourly"
+HALF_HOURLY = "half-hourly"
 HOURLY = "hourly"
 DAILY = "daily"
 WEEKLY = "weekly"
@@ -14,6 +15,7 @@ YEARLY = "yearly"
 
 METER_TYPES = [
     QUARTER_HOURLY,
+    HALF_HOURLY,
     HOURLY,
     DAILY,
     WEEKLY,
