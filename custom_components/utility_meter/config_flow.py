@@ -28,6 +28,7 @@ from .const import (
     HOURLY,
     MONTHLY,
     QUARTER_HOURLY,
+    HALF_HOURLY,
     QUARTERLY,
     WEEKLY,
     YEARLY,
@@ -36,6 +37,7 @@ from .const import (
 METER_TYPES = [
     selector.SelectOptionDict(value="none", label="No cycle"),
     selector.SelectOptionDict(value=QUARTER_HOURLY, label="Every 15 minutes"),
+    selector.SelectOptionDict(value=HALF_HOURLY, label="Every 30 minutes"),
     selector.SelectOptionDict(value=HOURLY, label="Hourly"),
     selector.SelectOptionDict(value=DAILY, label="Daily"),
     selector.SelectOptionDict(value=WEEKLY, label="Weekly"),
