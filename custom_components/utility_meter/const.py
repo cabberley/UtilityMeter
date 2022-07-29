@@ -25,9 +25,9 @@ METER_TYPES = [
     YEARLY,
 ]
 
-DATA_UTILITY = "utility_meter_custom_data"
-DATA_TARIFF_SENSORS = "utility_meter_custom_sensors"
-DATA_LEGACY_COMPONENT = "utility_meter_custom_legacy_component"
+DATA_UTILITY = "utility_meter_data"
+DATA_TARIFF_SENSORS = "utility_meter_sensors"
+DATA_LEGACY_COMPONENT = "utility_meter_legacy_component"
 
 CONF_METER = "meter"
 CONF_SOURCE_SENSOR = "source"
@@ -46,8 +46,8 @@ ATTR_TARIFFS = "tariffs"
 ATTR_VALUE = "value"
 ATTR_CRON_PATTERN = "cron pattern"
 
-SIGNAL_START_PAUSE_METER = "utility_meter_custom_start_pause"
-SIGNAL_RESET_METER = "utility_meter_custom_reset"
+SIGNAL_START_PAUSE_METER = "utility_meter_start_pause"
+SIGNAL_RESET_METER = "utility_meter_reset"
 
 SERVICE_RESET = "reset"
 SERVICE_SELECT_TARIFF = "select_tariff"
