@@ -1,6 +1,6 @@
 {
   "name": "Utility Meter Custom",
-  "domains": ["helper"],
+  "domains": ["sensor","helper"],
   "homeassistant": "0.116.0",
   "iot_class": ["Local Push"]
 }
