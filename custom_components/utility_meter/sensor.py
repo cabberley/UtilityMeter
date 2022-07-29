@@ -61,6 +61,7 @@ from .const import (
     HOURLY,
     MONTHLY,
     QUARTER_HOURLY,
+    HALF_HOURLY,
     QUARTERLY,
     SERVICE_CALIBRATE_METER,
     SIGNAL_RESET_METER,
@@ -70,6 +71,7 @@ from .const import (
 
 PERIOD2CRON = {
     QUARTER_HOURLY: "{minute}/15 * * * *",
+    HALF_HOURLY: "{minute}/30 * * * *",
     HOURLY: "{minute} * * * *",
     DAILY: "{minute} {hour} * * *",
     WEEKLY: "{minute} {hour} * * {day}",
