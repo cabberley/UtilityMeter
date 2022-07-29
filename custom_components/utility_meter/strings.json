@@ -1,9 +1,9 @@
 {
-  "title": "Utility Meter",
+  "title": "Utility Meter Custom",
   "config": {
     "step": {
       "user": {
-        "title": "Add Utility Meter",
+        "title": "Add Utility Meter Custom",
         "description": "Create a sensor which tracks consumption of various utilities (e.g., energy, gas, water, heating) over a configured period of time, typically monthly. The utility meter sensor optionally supports splitting the consumption by tariffs, in that case one sensor for each tariff is created as well as a select entity to choose the current tariff.",
         "data": {
           "cycle": "Meter reset cycle",
@@ -27,7 +27,7 @@
     "step": {
       "init": {
         "data": {
-          "source": "[%key:component::utility_meter::config::step::user::data::source%]"
+          "source": "[%key:custom_component::utility_meter_custom::config::step::user::data::source%]"
         }
       }
     }
